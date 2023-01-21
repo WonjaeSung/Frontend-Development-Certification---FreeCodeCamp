@@ -1,0 +1,55 @@
+body {
+    background-color: #ff4500;
+    animation: change-color-anim 20s linear infinite;
+}
+
+@keyframes change-color-anim {
+	0%,100%{
+		background-color: #ff4500;
+	}
+	50%{
+		background-color: #7fff00;
+	}
+}
+
+div#quote-box {
+    background: white;
+    width: 350px;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+button#fa-brands\ fa-twitter {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 0.2em;
+    /* font-weight: bold; */
+    height: 2em;
+    margin: 1em 1em 0 0;
+}
+
+div#wrapper {
+    padding: 1.5em;
+}
+
+div#text {
+    padding-bottom: 1em;
+}
+
+div#author {
+    text-align: right;
+}
+
+div#buttons {
+    display: flex;
+    justify-content: start;
+}
+
+a#tweet-quote {
+    margin-top: 10px;
+    /* margin-top: 2em; */
+}
+
+.icon{
+    font-size: 36px;
+    }
