@@ -59,7 +59,7 @@ const QuoteBox = () => {
                         <div id="text"><FontAwesomeIcon icon={faQuoteLeft} size="2x" /> {quote.text}</div>
                         <div id="author">- {quote.author}</div>
                         <div id="buttons">
-                            <button id="fa-brands fa-twitter" onClick={handleNewQuoteClick}>New quote</button>
+                            <button id="new-quote" onClick={handleNewQuoteClick}>New quote</button>
                             <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${quote.text} - ${quote.author}`} target="_blank">
                                 <FontAwesomeIcon icon={faSquareTwitter} size="2x" />
                             </a>
